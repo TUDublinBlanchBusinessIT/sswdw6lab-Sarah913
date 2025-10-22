@@ -1,6 +1,8 @@
 drop database if exists gp_surgery;
 create database gp_surgery;
 use gp_surgery;
+select * from visit
+
 create table patient
 (
 	id	INT AUTO_INCREMENT,
